@@ -10,6 +10,17 @@
     <TextView
         android:id="@+id/textView_Name"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:paddingLeft="100dp"
+        android:paddingTop="100dp"
+        android:textSize="10dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/textView_Name"
+        android:layout_centerHorizontal="true"
+        android:onClick="display"/>
 
 </RelativeLayout>
