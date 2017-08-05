@@ -37,7 +37,7 @@ public class ActivityGridView extends AppCompatActivity {
 
     public void display2(View view)
     {
-        Intent i = new Intent(this, Fragments.class);
+        Intent i = new Intent(this, MainFragments.class);
         startActivity(i);
     }
 }

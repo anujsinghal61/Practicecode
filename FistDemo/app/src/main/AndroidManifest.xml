@@ -18,7 +18,9 @@
         </activity>
         <activity android:name=".Main2Activity" />
         <activity android:name=".ActivityGridView" />
-        <activity android:name=".Fragments"></activity>
+        <activity android:name=".Fragments" />
+        <activity android:name=".MainFragments" />
+        <activity android:name=".Fragments1"></activity>
     </application>
 
 </manifest>
